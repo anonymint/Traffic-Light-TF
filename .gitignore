@@ -4,3 +4,7 @@ data/*
 !data/udacity_label_map.pbtxt
 !data/bosch_label_map.pbtxt
 !data/dataset.txt
+
+# Terrform
+.terraform/
+**/*.tfstate
