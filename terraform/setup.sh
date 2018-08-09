@@ -4,9 +4,11 @@
 # Let say you have tensorflow already or else
 # 	pip install tensorflow==1.4
 # 
+# please run as sudo!
+
+set -e
 
 sudo apt-get install protobuf-compiler python-pil python-lxml python-tk
-mkdir /tensorflow_model
 cd /tensorflow_model
 
 # clone tensorflow code here
