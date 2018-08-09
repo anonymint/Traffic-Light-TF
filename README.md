@@ -4,9 +4,10 @@ This is a project using [Tensorflow detection](https://github.com/tensorflow/mod
 
 More details to come
 
-step 1
+I follow this step
 * setup config
 * setup train.py
 * setup freeze model
 * running on local before move to AWS
-* save models and copy it to project
+* train model in AWS p2.xlarge
+* freeze model and test it with sample images in notebook file
