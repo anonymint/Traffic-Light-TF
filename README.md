@@ -11,3 +11,12 @@ I follow this step
 * running on local before move to AWS
 * train model in AWS p2.xlarge
 * freeze model and test it with sample images in notebook file
+
+Script to train model sim and non-sim
+```
+
+python train.py --logtostderr --train_dir=./model/train_large_sim --pipeline_config_path=./config/ssd_inception_v2_coco_large_data_sim.config > train_sim.log 2>&1 &
+
+python train.py --logtostderr --train_dir=./model/train_large_real --pipeline_config_path=./config/ssd_inception_v2_coco_large_data_real.config > train_real.log 2>&1 &
+
+```
